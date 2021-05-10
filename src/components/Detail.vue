@@ -1,6 +1,7 @@
 <template>
   <div>
       <h1>movie detail</h1>
+      <img :src="`https://image.tmdb.org/t/p/original${detailObj.poster_path}`">
       <p>{{detailObj.title}}</p>
   </div>
 </template>
